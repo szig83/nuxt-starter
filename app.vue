@@ -2,5 +2,5 @@
 const x = ref(0);
 </script>
 <template>
-	<div></div>
+	<div class="bg-red-400"></div>
 </template>

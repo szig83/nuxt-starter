@@ -2,9 +2,11 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: [
-		/*"@nuxtjs/eslint-module",*/
-		'@nuxtjs/tailwindcss',
-		'nuxt-security'
+		/*"@nuxtjs/eslint-module",*/ '@nuxtjs/tailwindcss',
+		'nuxt-security',
+		'@vueuse/nuxt',
+		'@pinia/nuxt',
+		'@nuxt/image'
 	],
 	tailwindcss: {
 		configPath: 'tailwind.config',
